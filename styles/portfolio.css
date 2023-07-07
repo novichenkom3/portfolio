@@ -18,7 +18,7 @@ body {
 }
 
 .main-page {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 h1 {
@@ -34,13 +34,13 @@ h3 {
 }
 
 h2 {
-    padding-bottom: 45px;
-    padding-left: 10px;
+  margin-bottom: 45px;
+  margin-left: 10px;
 }
 
 h3 {
-    text-align: end;
-    padding-top: 45px;
+  text-align: end;
+  margin-top: 45px;
 }
 
 .hero img {
@@ -48,4 +48,75 @@ h3 {
   margin: 0 auto;
   box-shadow: var(--shadow);
   border-radius: 12px;
+}
+
+.text-below {
+  text-align: center;
+  margin: 100px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card {
+  border: none;
+  padding-top: 60px;
+}
+
+.card-title {
+  font-family: var(--heading-font);
+  color: var(--font-color);
+  font-size: 96px;
+  margin-bottom: 50px;
+}
+
+.card-text {
+  font-weight: 16px;
+  color: var(--paragragh-color);
+  line-height: 30px;
+}
+
+.btn-white {
+  color: var(--font-color);
+  border: 1px solid var(--paragragh-color);
+  padding: 18px 24.5px;
+  margin-top: 50px;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-white:hover {
+  color: var(--branding-color);
+  background-color: var(--paragragh-color);
+}
+
+@media (max-width: 1000px) {
+  .hero img {
+    display: none;
+  }
+
+  .main-page {
+    margin-top: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 82px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-size: 24px;
+  }
+
+  h3 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .text-below {
+    margin: 30px;
+  }
+
+  .card {
+    display: none;
+  }
 }
