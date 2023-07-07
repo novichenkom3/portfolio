@@ -1,4 +1,52 @@
+:root {
+  --branding-color: #f4f4f4;
+  --heading-font: "Qwitcher Grypen", cursive;
+  --default-font: "Playfair Display", serif;
+  --font-color: #272142;
+  --paragragh-color: rgba(39, 33, 66, 0.7);
+  --shadow: 7px 5px 15px rgb(175, 175, 175);
+}
+
+body {
+  font-family: var(--default-font);
+  color: #272142;
+}
+
+.hero {
+  background: var(--branding-color);
+  padding: 150px;
+  height: 975px;
+}
+
+.main-page {
+    margin-top: 150px;
+}
+
 h1 {
-    color: red;
-    font-family: 'Qwitcher Grypen', cursive;
+  font-family: var(--heading-font);
+  font-size: 128px;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+    padding-bottom: 36px;
+    padding-left: 140px;
+}
+
+h3 {
+    text-align: end;
+    padding-top: 45px;
+}
+
+.hero img {
+  display: block;
+  margin: 0 auto;
+  box-shadow: var(--shadow);
+  border-radius: 12px;
 }
