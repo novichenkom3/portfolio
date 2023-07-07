@@ -14,8 +14,8 @@ body {
 
 .hero {
   background: var(--branding-color);
-  padding: 150px;
-  height: 975px;
+  padding: 100px;
+  height: 900px;
 }
 
 .main-page {
@@ -35,7 +35,7 @@ h3 {
 }
 
 h2 {
-    padding-bottom: 36px;
+    padding-bottom: 45px;
     padding-left: 140px;
 }
 
