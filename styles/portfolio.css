@@ -119,5 +119,25 @@ h3 {
   .card {
     display: none;
   }
+}
 
+.about-me-page {
+  margin-top: 125px;
+}
+
+.about-me {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.name {
+  font-family: var(--heading-font);
+  font-size: 100px;
+}
+
+.paragraph {
+  font-weight: 16px;
+  color: var(--paragragh-color);
+  line-height: 30px;
+  padding-bottom: 27px;
 }
