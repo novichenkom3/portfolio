@@ -81,11 +81,92 @@ h3 {
   padding: 18px 24.5px;
   margin-top: 50px;
   transition: all 200ms ease-in-out;
+  font-size: 16px;
 }
 
 .btn-white:hover {
   color: var(--branding-color);
   background-color: var(--paragragh-color);
+}
+
+.about-me-page {
+  margin-top: 125px;
+}
+
+.about-me {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.name {
+  font-family: var(--heading-font);
+  font-size: 100px;
+}
+
+.paragraph {
+  font-weight: 16px;
+  color: var(--paragragh-color);
+  line-height: 30px;
+  padding-bottom: 27px;
+  font-size: 20px;
+}
+
+.instagram {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+i {
+  font-size: 18px;
+}
+
+.what-unique {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-grey {
+  color: var(--branding-color);
+  border: 1px solid var(--paragragh-color);
+  background-color: var(--paragragh-color);
+  padding: 18px 24.5px;
+  margin-top: 30px;
+  transition: all 200ms ease-in-out;
+  font-size: 16px;
+}
+
+.btn-grey:hover {
+  color: var(--font-color);
+  background-color: #fff;
+  border: 1px solid var(--paragragh-color);
+}
+
+.about-text {
+  margin-top: 45px;
+}
+
+.snowboard,
+.guitar {
+  margin-left: 50px;
+}
+
+.four-pictures-about {
+  margin-top: 84px;
+  margin-bottom: 55px;
+}
+
+.two-pictures-about {
+  margin-bottom: 90px;
+}
+
+.volleyball {
+  margin-left: 35px;
+}
+
+.actress {
+  margin-left: 40px;
 }
 
 @media (max-width: 1000px) {
@@ -97,6 +178,7 @@ h3 {
     margin-top: 0;
     text-align: center;
   }
+
   h1 {
     font-size: 82px;
   }
@@ -119,25 +201,12 @@ h3 {
   .card {
     display: none;
   }
-}
 
-.about-me-page {
-  margin-top: 125px;
-}
+  .me-and-heart {
+    display: none;
+  }
 
-.about-me {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.name {
-  font-family: var(--heading-font);
-  font-size: 100px;
-}
-
-.paragraph {
-  font-weight: 16px;
-  color: var(--paragragh-color);
-  line-height: 30px;
-  padding-bottom: 27px;
+  .about-text {
+    text-align: center;
+  }
 }
